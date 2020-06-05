@@ -361,7 +361,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
 
 .toc li span:nth-child(2):after{
   font-family    : BookSanity;
-  font-size  	 : 6pt;
+  font-size  	 : 6.5pt;
   font-weight    : normal;
   color    	     : black;
   content:
@@ -375,7 +375,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
 .toc li span:first-child{
   float: right;
   font-family    : BookSanity;
-  font-size  	 : 6pt;
+  font-size  	 : 6.5pt;
   font-weight    : normal;
   color    	     : black;
   margin-left    : 1px;
@@ -397,7 +397,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
   margin-bottom: 4px !important;    
   margin-top: 8px !important;
   line-height: initial !important;
-  font-size  	 : 6pt;
+  font-size  	 : 6.5pt;
 }
 
 .toc li h3 span:first-child{
