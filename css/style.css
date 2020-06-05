@@ -53,7 +53,7 @@
 
 .phb {
     font-family: 'Montserrat';
-    font-size: 8pt;
+    font-size: 7pt;
     letter-spacing: -0.3pt;
     color: #000;
 }
@@ -63,7 +63,7 @@
 .smaller {
     /*background: #fff;*/
     font-family: 'Montserrat';
-    font-size: .2cm;
+    font-size: 5pt;
     letter-spacing: -0.3pt;
     color: #000;
 }
@@ -362,7 +362,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
 
 .toc li span:nth-child(2):after{
   font-family    : BookSanity;
-  font-size  	 : 7pt;
+  font-size  	 : 6pt;
   font-weight    : normal;
   color    	     : black;
   content:
@@ -376,7 +376,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
 .toc li span:first-child{
   float: right;
   font-family    : BookSanity;
-  font-size  	 : 7pt;
+  font-size  	 : 6pt;
   font-weight    : normal;
   color    	     : black;
   margin-left    : 1px;
@@ -390,7 +390,7 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
   margin-bottom: 4px !important;    
   margin-top: 8px !important;
   line-height: initial !important;
-  font-size  	 : 8.5pt;
+  font-size  	 : 8pt;
 }
 
 
@@ -398,12 +398,12 @@ blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child,
   margin-bottom: 4px !important;    
   margin-top: 8px !important;
   line-height: initial !important;
-  font-size  	 : 6.5pt;
+  font-size  	 : 6pt;
 }
 
 .toc li h3 span:first-child{
   	line-height: 1.7em !important;
-  	font-size  	 : 8.5pt;
+  	font-size  	 : 8pt;
 }
 
 .toc ul ul {
