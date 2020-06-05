@@ -380,7 +380,7 @@ pageSize: A4
     - [<span>20</span><span>Living Conduit</span>](#New-Feats-Live-Wire)
     - [<span>20</span><span>Living Large</span>](#New-Feats-Live-Large)
     - [<span>21</span><span>Nature's Boon</span>](#New-Feats-Natures-Boon)
-    - [<span>21</span><span>Scent Of the Fenris</span](#New-Feats-Fenris-Scent)
+    - [<span>21</span><span>Scent Of the Fenris</span>](#New-Feats-Fenris-Scent)
     - [<span>21</span><span>Spelldriver</span>](#New-Feats-Spelldriver)
     - [<span>21</span><span>Titanic Might</span>](#New-Feats-Titan-Might)
     - [<span>21</span><span>Versatile Combatant</span>](#New-Feats-Versatile-Combat)
