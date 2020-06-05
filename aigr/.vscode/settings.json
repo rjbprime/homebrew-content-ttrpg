@@ -1,0 +1,15 @@
+{
+  "dmbinder.homebrewPreviewEnabled": true,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "components/*.json",
+        "components/**/*.json"
+      ],
+      "url": "./schemas/customComponentSchemas.json"
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.trimAutoWhitespace": false,
+  "dmbinder.chromeExecutablePath": "\\.local-chromium\\win64-520840\\chrome-win\\chrome.exe"
+}

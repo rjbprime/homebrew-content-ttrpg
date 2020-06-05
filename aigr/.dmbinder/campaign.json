@@ -1,0 +1,16 @@
+{
+    "campaignName": "Adventures in Gaia - Rebirth",
+    "sourcePaths": [
+        "./source"
+    ],
+    "templatePaths": [
+        "./templates"
+    ],
+    "componentPaths": [
+        "./components"
+    ],
+    "generatorPaths": [
+        "./generators"
+    ],
+    "outDirectory": "./out"
+}
