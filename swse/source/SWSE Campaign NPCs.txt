@@ -1,0 +1,798 @@
+<style>
+  .phb{
+    height: 296.85mm;
+    width: 210mm;
+    padding : 10mm;
+    column-gap: 6mm;
+  }
+
+  @media print { 
+    .phb { 
+      height: 296.85mm;
+      width: 210mm;
+    }
+  }
+
+/* body */
+
+.phb:after { content: ""; }
+.phb:nth-child(even):after { background-image: none; }
+.phb:nth-child(odd):after { background-image: none; }
+
+.phb:nth-child(even) {
+    background-image:url(https://www.gmbinder.com/images/lpOgry8.jpg);
+    background-size: cover;
+    background-position:left;
+    padding:1.5cm 1.5cm 1.5cm 2.1cm;
+}
+
+.phb:nth-child(odd) {
+    background-image:url(https://www.gmbinder.com/images/lpOgry8.jpg);
+    background-size: cover;
+    background-position: right;
+    padding:1.5cm 2.1cm 1.5cm 1.5cm;
+}
+
+.phb {
+    color:#000;
+    font-family: 'ITC Symbol', serif;
+    font-size: 1em;
+}
+
+ .phb code {
+     font-size:10px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+ }
+/* IMPORTS */
+
+/* Chapter Title*/
+    .phb .chapter-title h1 {
+        font-size: 80px;
+        line-height: 74px;
+        color: #ffffff;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #00AEEF;
+        text-align: right;
+    }
+    .phb .chapter-title h2 {
+        color: white;
+        text-shadow: 0px 0px 30px blue;
+        font-size: 50px;
+        text-align: right;
+    }
+    .phb .chapter-page blockquote {
+        color: blue;
+        font-size: 14px;
+        font-style: italics;
+        font-family: 'Libre Franklin';
+        background: none !important;
+        box-sizing: none ;
+        margin-bottom: 1em;
+        margin-top: 9px;
+        padding: none !important;
+        border: none !important;
+        box-shadow: None;
+        text-align: right;
+    }
+    .phb .chapter-page {
+        color: #ffffff;
+}
+    .phb .chapter-page h3 {
+        color: #ffffff;
+}
+.phb blockquote em {
+    font-family: ScalySans;
+    font-style: italic
+}
+.phb blockquote strong {
+    font-family: ScalySans;
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+.phb blockquote p,
+.phb blockquote ul {
+    font-size: .352cm;
+    line-height: 1.1em
+}
+.phb pre+blockquote,
+.phb h2+blockquote,
+.phb h3+blockquote,
+.phb h4+blockquote,
+.phb h5+blockquote {
+    margin-top: 13px}
+.phb blockquote h5 {
+    margin-top: 0}
+
+/* Fonts */
+
+.phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb h6 { 
+    letter-spacing: 0.6px;
+    font-family: 'Elektra Medium Pro';
+}
+
+.phb h1{
+    color: #52644A;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:24pt;
+    line-height: 48px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+
+/* Makes the bigger "first letter" in paragraphs under H1 and H2*/
+.phb h1 + p:first-letter {
+    font-family: 'Mentone';
+    color: #00829B;
+    font-size:32pt;    
+    line-height:95%;
+    margin-bottom:-9px;
+    margin-right:2px;
+    margin-top:-5px;
+    float:left;
+}
+
+.phb h2 {
+    color: #751012;
+    text-transform: uppercase;
+    display:table;
+    font-size:16pt;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.phb h3 {
+    color: #876D21;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: bold;
+    border:none;
+    text-align: right;
+}
+
+.phb h4 {
+    color: #751113;
+    font-size: 10pt;
+    text-align:left;
+    text-transform: uppercase;
+}
+
+.phb h5 {
+    color: #52644A !important;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-family: 'Teuton Hell', serif;
+    border:none;
+    text-align: left;
+    margin-bottom: 10px
+    font-weight: normal;
+}
+
+.phb h6 {
+    color: #ea702b;
+    font-variant: small-caps;
+    font-size: 16pt;
+    display: table;
+    border-bottom: 1px solid #ea702b;
+}
+
+.phb .smallcaps {
+    font-variant: small-caps;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.phb p { 
+  	letter-spacing: -0.4px;
+  	line-height:1.15em;
+  	text-indent:0px !important;
+  	font-weight:400;
+  	padding-bottom:1px;
+  	column-fill:balance;
+  }
+  
+.phb p + p {
+    margin-top:0px;  
+  }
+
+.phb wide {clear:both;}
+.phb ul {list-style: none;}
+.phb ul li::before {
+    content: "•"; 
+    color: #a33638;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+/* Tables */
+.phb td {
+    font-family: 'ITC Symbol Std', 'Temporarium', serif;
+    font-size:9pt;
+    font-weight:400;
+    text-align:left;
+}
+.phb td, th {border: 1px solid gray;}
+.phb table {overflow:auto; background-color: #F0EFE6;}
+.phb table tr:nth-child(odd) td {background-color: #C7DEE5;}
+.phb table thead th {
+    color: white; 
+    background-color: #354456; 
+  	padding-top: 0.3em;
+    padding-left: 0.5em;
+    font-family: 'Teuton Normal';
+    font-weight: normal;
+}
+.phb table tbody tr td {  padding: 0.5em;}
+.phb table thead {display: table-row-group; }
+.phb table .subheader td {
+    color:white;
+    padding-bottom:2px;
+    background-color: #000000 !important;
+    font-size:10pt;
+    font-family: 'Teuton Normal';
+    font-weight: normal;
+    }
+
+/* Genesys Notes */
+
+.phb .note {
+    position:relative;
+    color: white;
+    background-color: #463F37;
+    padding: 10px 20px;  
+    letter-spacing: 0.5px;
+    font-size:12ptx;
+    }    
+    
+.phb .widenote {
+    position:relative;
+    color: white;
+    background-color: #4e5858;
+    padding: 10px 20px;  
+    letter-spacing: 0.5px;
+    position: relative;
+    } 
+    .phb .widenote:before, .widenote:after {
+ content: "";
+ position: absolute;
+ left: 0; right: 0;
+ bottom: 100%;
+ border-bottom: 10px solid #4e5858;
+ border-left: 10px solid transparent;
+ border-right: 10px solid transparent;
+}
+
+.widenote:after {
+ bottom: auto;
+ top: 100%;
+ border-bottom: none;
+ border-top: 10px solid #4e5858;
+}
+    .phb .widenote ul li::before {
+        color: white;
+    }
+
+.phb .note td {color:black;}
+.phb .note table tr:nth-child(even) td { background-color: #ffffff;}
+  
+  
+/* Example Block */
+
+.phb .example
+{
+    position:relative;
+    color: black;
+    background: #4e5858;
+    padding: 14px 20px;
+}
+
+/* Read-aloud */
+
+.phb .read {
+    display:block;
+    font-family: 'ITC Symbol';
+    color: #FFF693;
+    padding:15px;
+    position:relative;
+    background-color: #a33638;
+    font-style: italic;
+}
+
+/* Footer */
+.phb .pageNumber { color: #000000}
+.phb .footnote { color: #000000 }
+.phb:nth-child(odd) .pageNumber { color: #ffffff;
+	right: 2.1cm;
+	bottom: 1.5cm;
+	width: 31px;
+	height:23px;
+	text-align: center;
+    vertical-align: middle;
+    font-family: 'Elektra Medium Pro';
+    font-size:7pt;
+    line-height: 23px;
+    font-weight:normal;
+    background-image:url(https://www.gmbinder.com/images/xwGNmOt.png);
+    background-position:center;
+}
+
+.phb:nth-child(even) .pageNumber { color: #ffffff;
+	left: 2.1cm;
+	bottom: 1.5cm;
+	width: 31px;
+	height: 23px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Elektra Medium Pro';
+    font-size:7pt;
+    line-height: 23px;
+    font-weight:normal;
+    background-image:url(https://www.gmbinder.com/images/LqRZuzS.png);
+    background-position:center;
+}
+
+.phb .footnote { 
+    color: black; 
+    font-family: 'Elektra Medium Pro' 
+    font-weight: normal; 
+    vertical-align: center;
+    padding-top:11px;
+    text-transform: uppercase;
+}
+
+.phb .footnote p {
+    font-family: 'Star Jedi', 'SF Distant Galaxy';
+    text-transform: lowercase
+}
+
+.phb:nth-child(even) .footnote {
+    border-left:none;
+    left: 3cm;
+    bottom: 1.1cm;
+}
+
+.phb:nth-child(odd) .footnote {
+    border-right:none;
+    right: 3cm;
+    bottom: 1.1cm;
+}
+
+.phb:after { 
+    background-image:url("none") 
+}
+
+
+
+/* Dice and Symbols */
+
+@font-face {
+  font-family: 'Genesys';
+  src: local('Genesys');
+}
+.phb .symbols {
+    font-family: Genesys;
+}
+
+@font-face {
+  font-family: 'Genesys1';
+  src: local('EotE Symbol');
+}
+.phb .dice {
+    font-family: Genesys1;
+}
+
+
+.phb .setback {
+    font-family: Genesys1;
+    color: black;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.phb .note .setback, .phb .note .boost, .phb .note .challenge, .phb .note .proficiency, .phb .note .difficulty, .phb .note .ability {
+    text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
+}
+
+.phb .note  td > .setback, .phb .note td > .boost, .phb .note td > .challenge, .phb .note td > .proficiency, .phb .note td >  .difficulty, .phb .note td.ability {
+    text-shadow:  -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.phb .boost {
+    font-family: Genesys1;
+    color: #76CDDB;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.phb .challenge {
+    font-family: Genesys1;
+    color: #751317;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.phb .proficiency {
+    font-family: Genesys1;
+    color: #FEF035;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+.phb .force {
+    font-family: Genesys1;
+    color: #ffffff;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.phb .difficulty {
+    font-family: Genesys1;
+    color: #52287E;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.phb .ability {
+    font-family: Genesys1;
+    color: #46AC4E;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+
+/* Archetypes */
+
+.phb .archetype {
+    background-image: url('https://www.gmbinder.com/images/wk1XTwj.png');
+    height:62px;
+    width:329px;
+    background-size:100%;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+
+    }
+
+.phb .archetype .bra {
+    position:relative;
+    left:14px;
+    top:6px;
+    text-align:center;
+    display:inline-block;
+    width:25px;
+}
+
+.phb .archetype .agi {
+    position:relative;
+    left:42px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .archetype .int {
+    position:relative;
+    left:68px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+.phb .archetype .cun {
+    position:relative;
+    left:95px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .archetype .wil {
+    position:relative;
+    left:122px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .archetype .pre {
+    position:relative;
+    left:148px;
+    top:6px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+/* Adversaries */
+
+.phb .adversary {
+    background-image: url('https://www.gmbinder.com/images/ks1JaPU.png');
+    height:47px;
+    width:329px;
+    background-position: -3px 0px;
+    background-size:102%;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+}
+
+.phb .adversary .soak {
+    position:relative;
+    left:26px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .adversary .wound {
+    position:relative;
+    left:79px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .adversary .strain {
+    position:relative;
+    left:135px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .adversary .mdef {
+    position:relative;
+    left:176px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .adversary .rdef {
+    position:relative;
+    left:175px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+/* MINION STAT BLOCK */
+
+.phb .minion {
+    background-image: url('https://www.gmbinder.com/images/K1aEwZa.png');
+    height:63px;
+    width:329px;
+    background-position: 42px 0px;
+    background-repeat:no-repeat;
+    background-size:75%;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+}
+
+.phb .minion .soak {
+    position:relative;
+    left:71px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+.phb .minion .wound {
+    position:relative;
+    left:125px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+.phb .minion .mdef {
+    position:relative;
+    left:165px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+.phb .minion .rdef {
+    position:relative;
+    left:165px;
+    top:13px;
+    width:25px;
+    text-align:center;
+    display:inline-block;
+}
+
+/* Vehicles */
+
+.phb .vehicle {
+    background-image: url('https://www.gmbinder.com/images/kHkRFrN.png');
+    height:80px;
+    width:329px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    font-family: 'Bebas Neue';
+    font-size:14pt;
+}
+
+
+.phb .vehicle .sil {
+    position:relative;
+    left:14px;
+    top:6px;
+    text-align:center;
+    display:inline-block;
+    width:25px;
+}
+
+.phb .vehicle .speed {
+    position:relative;
+    left:41px;
+    top:6px;
+    text-align:center;
+    display:inline-block;
+    width:25px;
+}
+
+.phb .vehicle .hand {
+    position:relative;
+    left:67px;
+    top:6px;
+    text-align:center;
+    display:inline-block;
+    width:25px;
+}
+
+.phb .vehicle .armor {
+    position:relative;
+    left:107px;
+    top:12px;
+    text-align:center;
+    display:inline-block;
+    width:25px;
+}
+.phb .vehicle .def {
+    position:relative;
+    left:163px;
+    top:12px;
+    text-align:center;
+    display:inline-block;
+    width:25px;    
+}
+.phb .vehicle .ht {
+    position:relative;
+    left:53px;
+    top:53px;
+    text-align:center;
+    display:inline-block;
+    width:25px;    
+}
+
+.phb .vehicle .ss {
+    position:relative;
+    left:107px;
+    top:53px;
+    text-align:center;
+    display:inline-block;
+    width:25px;    
+}
+
+/*Index*/
+
+.phb .index-letter {
+    color:rgb(118,18,19);
+    font-size:24pt;font-weight:bold; 
+    font-family:'Bebas Neue';
+    line-height:1.1em;
+}
+
+.phb .index {
+    list-style:none;
+    padding:0;
+    overflow-x:hidden;
+    max-width:329px;
+}
+
+.phb .index li::before {
+            content: ""; }
+            
+.phb .index li {
+    
+    display:flex;
+}
+            
+.phb .index li span:first-child {
+    margin-right:0.2em;
+    order:1;
+}
+            
+.phb .index li::after {
+  content: "";
+  border-bottom: 1px dotted;
+  flex-grow: 1;
+  order: 2;
+  position:relative;
+  top:-5px
+}
+
+.phb .index span + span {
+    order:3;
+    margin-left:0.2em;
+    }
+    
+/* NON BLENDED IMAGE BORDER */
+    
+.phb .non-blended {
+    padding:10px;
+    border-width:2px;
+    border-style:solid;
+    border-image:linear-gradient(135deg, rgba(230,0,0,1) 0%,rgba(230,0,0,0.01) 99%,rgba(230,0,0,0) 100%);
+    -moz-border-image:-moz-linear-gradient(-45deg, rgba(230,0,0,1) 0%, rgba(230,0,0,0.01) 99%, rgba(230,0,0,0) 100%); -webkit-border-image:-webkit-linear-gradient(-45deg, rgba(230,0,0,1) 0%,rgba(230,0,0,0.01) 99%,rgba(230,0,0,0) 100%);
+    border-image-slice: 1;
+}
+
+.phb .cover-splotch {background-image:url(https://www.gmbinder.com/images/jwEeJS1.png);filter: hue-rotate(202deg) brightness(35%) contrast(120%)}
+
+.phb#p1:after { display:none; }
+
+.phb#p2 h2:after {
+    display: none;
+}
+
+.phb#p4 h2:after {
+    display: none;
+}
+
+.phb#p2 {
+    padding : 8mm 8mm 8mm 8mm;
+}
+
+</style>
+
+<img src='https://drive.google.com/uc?id=1waFzvnv6XQagtNsBV5mIB6B65vxA4Bk7' class='cover-image' />
+
+
+<div class='cover-header'><img src='https://drive.google.com/uc?id=1mjKJwUPv5tBu2zcwlG_Oii8mhbkVmuz5' style="width: 50%; margin-top:10mm;position:absolute;left:42mm;top:-20mm;"/></div>
+
+<div class='cover-splotch'></div>
+
+<img src='https://drive.google.com/uc?id=1tOlZa5lv1qcb31jSUrM-VZIXe-EHeEn8' style="position:absolute;bottom:4.7cm;left:0.3cm;width:9mm;z-index:+1;">
+
+<div style="position:absolute;bottom:187px;left:50px;color:white;font-family:NodestoCaps;text-transform: uppercase;font-size:22px;font-weight:bold;">SWSE Homebrew Campaign</div>
+
+<!-- <div class='cover-footer'>Genterated on : 05 MAR 2020 : 00:15AM : GMT+1000</div> -->
+
+\pagebreak
+
+___
+> ## WD-1001 Mrk2 Sentinel Scorpion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CL 8
+> *Medium droid (4th-degree) soldier 7/elite trooper 1*
+> ___
+> - **Init** +11; **Senses** darkvision; Perception +7
+> - **Languages** Basic, Binary
+> ___
+>
+> - **Defenses** *Ref* 17 (flat-footed 14), *Fort* 33, *Will* 19
+> - **HP** 155; **second wind** +38/77, 3 per day, more than once per encounter, move +2 steps up condition track; **Threshold** 63
+> - **Immune** droid traits
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|32 (+11)|15 (+2)|&ndash; (&ndash;)|10 (+0)|13 (+1)|8 (-1)|
+>___
+> - **Speed** 10 squares (walking)
+> - **Melee** claw +19 (1d10+15) or
+> - **Melee** claw +30 (1d10+15) with Hammerblow
+> - **Ranged** blaster cannon +10 (3d12+4, 1-square splash) or
+> - **Ranged** Nano-Missile System, Fire-linked +8 (4d10+4, 2-Square Burst)
+> - **Special** Self-Destruct System +5 (10d6, 4-Square Burst centered on Self)
+> - **Fighting Space** 3x3 square; **Reach** 2 square
+> - **Base Atk** +8; **Grp** +19
+> - **Atk Options** Entangler, Hammerblow, Point Blank Shot, Power Attack
+> - **Special Actions** self-destruct, Tough as Nails, Weapons Power Surge
+> - **Special Qualities** delay damage
+> - **Talents** Entangler, Hammerblow, Tested in Battle, Tough as Nails, Weapons Power Surge
+> - **Feats** Armor Proficiency (light, medium), Extra Second Wind, Martial Arts I, Point Blank Shot, Power Attack, Toughness, Unstoppable Combatant, Weapon Proficiency (heavy weapons, pistols, rifles, simple weapons)
+> - **Primary Skills** Endurance +9, Initiative +11, Mechanics +9, Perception +7
+> - **Secondary Skills** Acrobatics +6, Climb +15, Deception +3, Gather Information +3, Jump +15, Knowledge (bureaucracy) +4, Knowledge (galactic lore) +4, Knowledge (life sciences) +4, Knowledge (physical sciences) +4, Knowledge (social sciences) +4, Knowledge (tactics) +4, Knowledge (technology) +4, Persuasion +3, Pilot +6, Ride +6, Stealth +6, Survival +5, Swim +15, Treat Injury +5, Use Computer +4
+> - **Systems** walking locomotion (climbing claws, extra legs, jump servos), quadanium battle armor (+7 armor), miniaturized self-destruct system (30d6 damage, 14-square burst), locked access, shield generator (SR 10), communications countermeasures, vocabulator, internal comlink, 2 claw appendages, repulsor-assisted lifting system, heuristic processor, 4 specialized subprocessors (Initiative, Jump, Mechanics, Perception), darkvision, improved sensor package, ion dispersal coating, hardened systems x3
+> - **Possessions** blaster cannon, Nano-Missile System
+> - **Quirk** *Imperial Department Of Research* - Transmits secretly recorded data to an Imperial installation
+
+\columnbreak
+
+<img src='https://drive.google.com/uc?id=12PpG4dGvhYEXZ454rfMnMSacpjZCHc5l' style="transform: scaleX(-1);position:relative;left:-550px;">

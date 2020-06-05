@@ -1,0 +1,163 @@
+.phb {color:#000;column-count:2;column-fill:auto;column-gap:1cm;column-width:8cm;-webkit-column-count:2;-moz-column-count:2;-webkit-column-width:8cm;-moz-column-width:8cm;-webkit-column-gap:1cm;-moz-column-gap:1cm;counter-increment:phb-page-numbers;position:relative;z-index:15;box-sizing:border-box;overflow:hidden;height:279.4mm;width:215.9mm;padding:1cm 1.7cm;padding-bottom:1.5cm;background-color:#EEE5CE;background-image:url('https://www.gmbinder.com/assets/img/phb_bg.png');font-family:BookSanity;font-size:.317cm;text-rendering:optimizeLegibility;page-break-before:always;page-break-after:always;margin:30px auto;box-shadow:1px 4px 14px #000}
+.phb .cover-header{position:absolute;font-family:NodestoCaps,nodesto,sans-serif;transform:scale(2, 2) !important;font-weight:normal;font-size:36px;color:white;width:700px;text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000;transform:scaleY(3) scaleX(1);top:50px;text-align:center}
+.phb .cover-image{position:absolute;top:0;left:0;width:824px}
+.phb .cover-diamond{background-image:url('https://www.gmbinder.com/assets/img/DiamondDD.png');background-size:400px;background-repeat:no-repeat;position:absolute;left:210px;top:115px;width:400px;height:12px}
+.phb .cover-splotch{background-image:url('https://www.gmbinder.com/assets/img/UNR8ilF.png');background-size:350px;position:absolute;left:0;bottom:180px;width:345px;height:56px}
+.phb .cover-footer{position:absolute;font-family:ScalySans;font-size:20px;color:white;bottom:50px;right:55px;width:700px;text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000;filter:opacity(100%);text-align:center}
+.phb .column-break{break-after:always;-webkit-column-break-after:always;-moz-column-break-after:always}@supports (-moz-appearance:none){.phb .column-break{margin-top:3000px}}
+.phb .back-cover-image{position:absolute;height:1066px;left:0;top:0;width:475px;background-image:url('https://www.gmbinder.com/assets/img/backcover-bg.png');background-size:475px 1066px;z-index:-1}
+.phb .back-cover-diamond{background-image:url('https://www.gmbinder.com/assets/img/DiamondDD.png');background-size:280px;background-repeat:no-repeat;position:absolute;left:90px;top:110px;width:280px;height:8px}
+.phb .back-cover-logo{background-image:url('https://www.gmbinder.comhttps://www.gmbinder.com/assets/img/logo-stacked-light.png');background-size:120px;position:absolute;left:165px;bottom:95px;width:120px;height:74px}
+.phb .back-cover-logo-link{text-align:center;font-family:sans-serif;position:absolute;bottom:30px;left:145px}
+.phb .back-cover-logo-link p{font-family:ScalySans,sans-serif;line-height:1.6em !important;font-size:16px;padding-bottom:25px}
+.phb .back-cover-logo-link a{color:#fff;text-decoration:none}
+.phb .back-cover-header{color:#ff2a1a;font-family:NodestoCaps,sans-serif;font-size:64px;text-align:center;text-shadow:1px 1px 2px #000000,-1px 1px 2px #000000,1px -1px 2px #000000,-1px -1px 2px #000000}
+.phb .back-cover-header p{text-indent:0;padding-bottom:15px}
+.phb .back-cover-header p+p{text-indent:0}
+.phb .back-cover-text{color:#fff;font-family:sans-serif}
+.phb .back-cover-text a{color:#AC8F66}
+.phb .back-cover-text p{font-family:ScalySans,sans-serif;line-height:1.6em !important;font-size:16px;padding-bottom:25px}
+.phb .back-cover-text p+p{text-indent:0}
+.phb .back-cover-close{color:#fff;text-align:center;font-family:sans-serif}
+.phb .back-cover-close a{color:#AC8F66}
+.phb .back-cover-close p{font-family:ScalySans,sans-serif;line-height:1.6em !important;font-size:16px;padding-bottom:25px}
+.phb .back-cover-close p+p{text-indent:0}
+.phb .back-cover-right{padding-left:60px}
+.phb .image-top{position:absolute;left:0;top:0;width:824px}
+.phb .image-right{position:absolute;right:0;top:0;height:1066px}
+.phb .image-bottom{position:absolute;left:0;bottom:0;width:824px}
+.phb .image-left{position:absolute;left:0;top:0;height:1066px}
+.phb .image-top-left{position:absolute;left:0;top:0}
+.phb .image-top-right{position:absolute;right:0;top:0}
+.phb .image-bottom-right{position:absolute;right:0;bottom:0}
+.phb .image-bottom-left{position:absolute;left:0;bottom:0}
+@font-face{font-family:BookSanity;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Bookinsanity.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:BookSanity;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Bookinsanity%20Bold.otf') format('opentype');font-weight:bold;font-style:normal}
+@font-face{font-family:BookSanity;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Bookinsanity%20Italic.otf') format('opentype');font-weight:normal;font-style:italic}
+@font-face{font-family:BookSanity;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Bookinsanity%20Bold Italic.otf') format('opentype');font-weight:bold;font-style:italic}
+@font-face{font-family:NodestoCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Nodesto%20Caps%20Condensed.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:NodestoCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Nodesto%20Caps%20Condensed%20Bold.otf') format('opentype');font-weight:bold;font-style:normal}
+@font-face{font-family:NodestoCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Nodesto%20Caps%20Condensed%20Italic.otf') format('opentype');font-weight:normal;font-style:italic}
+@font-face{font-family:NodestoCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf') format('opentype');font-weight:bold;font-style:italic}
+@font-face{font-family:ScalySans;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Scaly%20Sans.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:ScalySans;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Scaly%20Sans%20Bold.otf') format('opentype');font-weight:bold;font-style:normal}
+@font-face{font-family:ScalySans;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Scaly%20Sans%20Italic.otf') format('opentype');font-weight:normal;font-style:italic}
+@font-face{font-family:ScalySans;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Scaly%20Sans%20Bold%20Italic.otf') format('opentype');font-weight:bold;font-style:italic}
+@font-face{font-family:ScalySansSmallCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/ScalySansCaps-fixed.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:ScalySansSmallCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/ScalySansCaps-Bold-fixed.otf') format('opentype');font-weight:bold;font-style:normal}
+@font-face{font-family:ScalySansSmallCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/ScalySansCaps-Italic-fixed.otf') format('opentype');font-weight:normal;font-style:italic}
+@font-face{font-family:ScalySansSmallCaps;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/ScalySansCaps-BoldItalic-fixed.otf') format('opentype');font-weight:bold;font-style:italic}
+@font-face{font-family:Solberry;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Solbera%20Imitation.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:MrJeeves;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Mr%20Eaves%20Small%20Caps.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:Genesys;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/Genesys.ttf') format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:Genesys1;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/EotE_Symbol-Regular_v1.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:Bebas Neue;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/BebasNeue%20Regular.otf') format('opentype');font-weight:normal;font-style:normal}
+@font-face{font-family:Bebas Neue;src:url('D:/Users/Danno/Downloads/RPGs/Personal/dmbinder/swse/source/fonts/BebasNeue%20Bold.otf') format('opentype');font-weight:bold;font-style:normal}
+.phb hr+hr+section blockquote{column-span:all;-webkit-column-span:all;-moz-column-span:all}
+.phb hr+table{margin-top:-5px;margin-bottom:50px;padding-top:10px;border-collapse:separate;background-color:white;border:initial;border-style:solid;border-image-outset:37px 17px;border-image-repeat:round;border-image-slice:150 200 150 200;border-image-source:url('https://www.gmbinder.com/assets/img/table-wrap.png');border-image-width:47px}
+.phb h5+hr+table{column-span:all;-webkit-column-span:all;-moz-column-span:all}@page{margin:0}body{counter-reset:phb-page-numbers}*{-webkit-print-color-adjust:exact}
+.phb p{line-height:1.3em}
+.phb p+p{margin-top:-0.8em}
+.phb ul{margin-bottom:.8em;padding-left:1.4em;line-height:1.3em;list-style-position:outside;list-style-type:disc}
+.phb ol{margin-bottom:.8em;padding-left:1.4em;line-height:1.3em;list-style-position:outside;list-style-type:decimal}
+.phb p+p,.phb ul+p,.phb ol+p{text-indent:1em}
+.phb img{z-index:-1}
+.phb strong{font-weight:bold;letter-spacing:.03em}
+.phb em{font-style:italic}
+.phb sup{vertical-align:super;font-size:xx-small;line-height:0}
+.phb sub{vertical-align:sub;font-size:smaller;line-height:0}
+.phb h1,.phb h2,.phb h3,.phb h4{margin-top:.2em;margin-bottom:.2em;font-family:MrJeeves;font-weight:800;color:#58180D}
+.phb h1{column-span:all;font-size:.987cm;-webkit-column-span:all;-moz-column-span:all}@supports not (column-span: all){.phb h1{width:864px;word-wrap:normal}}
+.phb h1+p::first-letter{float:left;font-family:Solberry;font-size:10em;color:#222;line-height:.8em}
+.phb h2{font-size:.705cm}
+.phb h3{font-size:.529cm;border-bottom:2px solid #c9ad6a}
+.phb h4{margin-bottom:0;font-size:.458cm}
+.phb h5{margin-bottom:.2em;font-family:ScalySansSmallCaps;font-size:.423cm;font-weight:900}
+.phb table{font-family:ScalySans;width:100%;margin-bottom:1em;font-size:10pt;line-height:1.1em}
+.phb table em{font-family:ScalySans;font-style:italic}
+.phb table strong{font-family:ScalySans;font-weight:800;letter-spacing:-0.02em}
+.phb table thead{font-weight:800}
+.phb table thead th{vertical-align:bottom;padding-bottom:.3em;padding-right:.1em;padding-left:.1em}
+.phb table tbody tr td{padding:.3em .1em}
+.phb table tbody tr:nth-child(odd){background-color:#e0e5c1}
+.phb blockquote{font-family:ScalySans;box-sizing:border-box;margin-bottom:1em;margin-top:9px;padding:5px 10px;background-color:#e0e5c1;border-style:solid;border-width:11px;border-image:url('https://www.gmbinder.com/assets/img/note-wrap.png') 11;border-image-outset:9px 0;box-shadow:1px 4px 14px #888}
+.phb blockquote em{font-family:ScalySans;font-style:italic}
+.phb blockquote strong{font-family:ScalySans;font-weight:800;letter-spacing:-0.02em}
+.phb blockquote p,.phb blockquote ul{font-size:.352cm;line-height:1.1em}
+.phb pre+blockquote,.phb h2+blockquote,.phb h3+blockquote,.phb h4+blockquote,.phb h5+blockquote{margin-top:13px}
+.phb hr+section blockquote{position:relative;padding-top:15px;background-color:#FDF1DC;border-style:solid;background-image:url('https://www.gmbinder.com/assets/img/blockquote-bg.png');border-image:url('https://www.gmbinder.com/assets/img/blockquote-wrap.png');background-position:center;border-width:8px;border-image-slice:20}
+.phb hr+section blockquote h2{margin-top:-8px;margin-bottom:0}
+.phb hr+section blockquote h2+p{padding-bottom:0}
+.phb hr+section blockquote h3{font-family:ScalySans;font-weight:400;border-bottom:1px solid #58180D}
+.phb hr+section blockquote hr+ul{color:#58180D}
+.phb hr+section blockquote ul{font-family:ScalySans;padding-left:1em;font-size:.352cm}
+.phb hr+section blockquote section section ul li{text-indent:-1em;list-style-type:none;margin-bottom:7px}
+.phb hr+section blockquote ul em{font-family:ScalySans;font-style:italic}
+.phb hr+section blockquote ul strong{font-family:ScalySans;font-weight:800;letter-spacing:-0.02em}
+.phb hr+section blockquote hr+table{margin:0;column-span:1;background-color:transparent;border-style:none;border-image:none;-webkit-column-span:1}
+.phb hr+section blockquote hr+table tbody tr:nth-child(odd),.phb hr+section blockquote hr+table tbody tr:nth-child(even){background-color:transparent}
+.phb hr+section blockquote table{color:#58180D}
+.phb hr+section blockquote p+p{margin-top:0;text-indent:0;margin-bottom:7px}
+.phb hr+section blockquote hr{visibility:visible;height:6px;margin:4px 0;background-image:url('https://www.gmbinder.com/assets/img/arrow-right.png');background-size:100% 100%;border:none}
+.phb hr+hr+section blockquote{column-count:2;column-fill:auto;column-gap:1cm;column-width:7.68cm;-webkit-column-count:2;-moz-column-count:2;-webkit-column-width:7.68cm;-moz-column-width:7.68cm;-webkit-column-gap:1cm;-moz-column-gap:1cm}
+.phb blockquote h5{margin-top:0}
+/*.phb:after{content:"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.";position:absolute;bottom:0;left:0;height:55px;width:100%;background-image:url('https://www.gmbinder.com/assets/img/footer.png');background-size:cover;padding-top:28px;text-align:center;font-size:11px;padding-left:65px;padding-right:85px;line-height:1.1}*/
+.phb:nth-child(even):after{background-image:url('https://www.gmbinder.com/assets/img/footer_even.png');padding-left:85px;padding-right:65px}
+.phb:nth-child(even) .pageNumber{left:2px}
+.phb:nth-child(even) .footnote{left:80px;text-align:left}
+.phb .mark{position:absolute;left:2px;bottom:23px;width:50px;font-size:.9em;color:#c9ad6a;text-align:center}
+.phb .pageNumber{position:absolute;right:2px;bottom:23px;width:50px;font-size:.9em;color:#c9ad6a;text-align:center}
+.phb .pageNumber.auto::after{content:counter(phb-page-numbers)}
+.phb .footnote{position:absolute;right:80px;bottom:37px;width:200px;font-size:.8em;color:#c9ad6a;text-align:right}
+.phb hr{visibility:hidden;margin:0}
+.phb hr+ul{margin-bottom:.5em;padding-left:1em;text-indent:-1em;list-style-type:none}
+.phb pre,.phb code{-webkit-column-break-after:always;break-after:always;-moz-column-break-after:always;display:inline-block}
+.phb p,.phb blockquote,.phb table{z-index:15;-webkit-column-break-inside:avoid;column-break-inside:avoid;overflow:hidden}
+.phb h4+p+hr+ul{margin-top:-0.5em}
+.phb table+p{text-indent:1em}
+.phb ul ul,.phb ol ol,.phb ul ol,.phb ol ul{margin-bottom:0;margin-left:1.5em}
+.phb li{-webkit-column-break-inside:avoid;column-break-inside:avoid}
+.phb .spellList{font-family:ScalySans;column-count:4;column-span:all;-webkit-column-span:all;-moz-column-span:all}
+.phb .spellList em{font-family:ScalySans;font-style:italic}
+.phb .spellList strong{font-family:ScalySans;font-weight:800;letter-spacing:-0.02em}
+.phb .spellList ul+h5{margin-top:15px}
+.phb .spellList p,.phb .spellList ul{font-size:.352cm;line-height:1.3em}
+.phb .spellList ul{margin-bottom:.5em;padding-left:1em;text-indent:-1em;list-style-type:none;-webkit-column-break-inside:auto;column-break-inside:auto}
+.phb.print blockquote{box-shadow:none}
+.phb .wide{column-span:all;-webkit-column-span:all;-moz-column-span:all}
+.phb .classTable{margin-top:25px;margin-bottom:40px;border-collapse:separate;background-color:white;border:initial;border-style:solid;border-image-outset:25px 17px;border-image-repeat:stretch;border-image-slice:150 200 150 200;border-image-source:url('https://www.gmbinder.com/assets/img/table-wrap.png');border-image-width:47px}
+.phb .classTable h5{margin-bottom:10px}
+.phb .descriptive{display:block-inline;margin-bottom:1em;background-color:#faf7ea;font-family:ScalySans;border-style:solid;border-width:7px;border-image:url('https://www.gmbinder.com/assets/img/sidebars.png') 12 stretch;border-image-repeat:stretch;border-image-outset:4px;box-shadow:0 0 6px #faf7ea}
+.phb .descriptive p{display:block;padding-bottom:0;line-height:1.5em}
+.phb .descriptive p+p{padding-top:.8em}
+.phb .descriptive em{font-family:ScalySans;font-style:italic}
+.phb .descriptive strong{font-family:ScalySans;font-weight:800;letter-spacing:-0.02em}
+.phb pre+.descriptive{margin-top:8px}
+.phb .toc{-webkit-column-break-inside:avoid;column-break-inside:avoid}
+.phb .toc a{color:black;text-decoration:none}
+.phb .toc a:hover{text-decoration:underline}
+.phb .toc ul{padding-left:0;list-style-type:none}
+.phb .toc>ul>li{margin-bottom:10px}@media print{.phb {margin:0;height:279.4mm;width:215.9mm}}
+.phb hr+hr blockquote{column-span:all;-webkit-column-span:all;-moz-column-span:all}
+.phb hr blockquote{position:relative;padding-top:15px;background-color:#FDF1DC;border-style:solid;background-image:url('https://www.gmbinder.com/assets/img/blockquote-bg.png');border-image:url('https://www.gmbinder.com/assets/img/blockquote-wrap.png');background-position:center;border-width:8px;border-image-slice:20}
+.phb hr blockquote h2{margin-top:-8px;margin-bottom:0}
+.phb hr blockquote h2+p{padding-bottom:0}
+.phb hr blockquote h3{font-family:ScalySans;font-weight:400;border-bottom:1px solid #58180D}
+.phb hr blockquote hr+ul{color:#58180D}
+.phb hr blockquote ul{font-family:ScalySans;padding-left:1em;font-size:.352cm}
+.phb hr blockquote ul em{font-family:ScalySans;font-style:italic}
+.phb hr blockquote ul strong{font-family:ScalySans;font-weight:800;letter-spacing:-0.02em}
+.phb hr blockquote hr+table{margin:0;column-span:1;background-color:transparent;border-style:none;border-image:none;-webkit-column-span:1}
+.phb hr blockquote hr+table tbody tr:nth-child(odd),.phb hr blockquote hr+table tbody tr:nth-child(even){background-color:transparent}
+.phb hr blockquote table{color:#58180D}
+.phb hr blockquote p+p{margin-top:0;text-indent:0;margin-bottom:7px}
+.phb hr blockquote hr{visibility:visible;height:6px;margin:4px 0;background-image:url('https://www.gmbinder.com/assets/img/arrow-right.png');background-size:100% 100%;border:none}
+.phb hr+hr blockquote{column-count:2;column-fill:auto;column-gap:1cm;column-width:7.68cm;-webkit-column-count:2;-moz-column-count:2;-webkit-column-width:7.68cm;-moz-column-width:7.68cm;-webkit-column-gap:1cm;-moz-column-gap:1cm}
+.phb .partpage{text-align:center;position:absolute;top:0;left:0;right:0;background-image:url('https://www.gmbinder.com/assets/img/pph.png');background-size:cover;background-position:center;height:217px}
+.phb .partpage h1{font-family:NodestoCaps;font-size:64pt;font-weight:normal;letter-spacing:-2px;margin:12px 0 -17.5px 0}
+.phb .partpage h5{font-family:ScalySans;font-size:13pt;color:#58180D}
+.phb .partpage-dmg{text-align:center;position:absolute;top:0;left:0;right:0;background-image:url('https://www.gmbinder.com/assets/img/pph-dmg.png');background-size:cover;background-position:center;height:206px}
+.phb .partpage-dmg h1{font-family:NodestoCaps;font-size:64pt;font-weight:normal;letter-spacing:-2px;margin:12px 0 -12.5px 0}
+.phb .partpage-dmg h5{font-family:ScalySans;font-size:13pt;color:black}
+.phb .back-cover-right-image{position:absolute;height:1066px;right:0;top:0;z-index:-2}
+.phb .back-cover-right-text{padding-left:60px;color:white;z-index:-1}

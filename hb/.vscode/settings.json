@@ -1,0 +1,12 @@
+{
+  "dmbinder.homebrewPreviewEnabled": true,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "components/*.json",
+        "components/**/*.json"
+      ],
+      "url": "./schemas/customComponentSchemas.json"
+    }
+  ]
+}
