@@ -437,7 +437,9 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One|Open+Sans|Bungee+Inline');
 
   
-.phb#p1:after, .phb#p8:after { display:none; }
+.phb#p1:after {
+	display:none;
+}
 
 .phb {
   text-rendering: optimizeLegibility;
@@ -871,7 +873,30 @@ a:-webkit-any-link {
 	color: #990000;
 	font-size:18pt;
 }
-	
+
+/* Flowcharts by u/Jintonix; fiddling by u/Thurse */
+.flowchart, 
+.flowchart_last {
+	background-color:#fff; /* background-image works as well */
+	border-radius: 15px; /* rounds the corners, nearly hiding them behind the notched border*/
+	border: 15px solid transparent;
+	border-image: url(https://i.imgur.com/yJB3DLN.png) 40% round;
+	border-image-outset: 2px; /* expands the border so we don't have to resize the background*/
+	margin-bottom:38px;
+	position: relative;
+}
+
+.flowchart:after {
+	content: " ";
+	background-image: url('https://i.imgur.com/ZuQmxbO.png');
+	background-size: 12px 40px;
+	position: absolute;
+	width: 12px;
+	height: 36px;
+	bottom: -52px;
+	left: 136px; /* 145px if using "letter" size */
+}
+
 /* Main Background */
 
 .phb:nth-child(odd) {
@@ -895,56 +920,4 @@ a:-webkit-any-link {
 
 .phb#p1::after {
 	background-image: none;
-}
-
-.phb#p2 .cDesc table thead th {
-	border-bottom: 2px solid #990000;
-}
-
-.phb#p2 .cMulti table thead th {
-	border-bottom: 2px solid #990000;
-}
-
-.phb#p3 .classTable table thead th {
-	border-bottom: 2px solid #990000;
-}
-
-.phb#p2 .cDesc th:nth-of-type(4), .phb#p2 .cDesc th:nth-of-type(5) {
-	width: 15%;
-}
-
-.phb#p2 .cDesc th:nth-of-type(2) {
-	width: 30%;
-}
-
-.phb#p2 .cDesc th:nth-of-type(1), .phb#p2 .cDesc th:nth-of-type(3) {
-	width: 5%;
-}
-
-.phb#p2 .cMulti th:nth-of-type(1) {
-	width: 15%;
-}
-
-.phb#p2 .cMulti th:nth-of-type(2) {
-	width: 80%;
-}
-
-.phb#p6 .specBomb th:nth-of-type(1) {
-	width: 15%;
-}
-
-.phb#p6 .specBomb th:nth-of-type(2) {
-	width: 75%;
-}
-
-.phb#p6 .specBomb table thead th {
-	border-bottom: 2px solid #990000;
-}
-
-.phb#p7 .firearmsGear table thead th {
-	border-bottom: 2px solid #990000;
-}
-
-.phb hr+blockquote{
-	background : #eee;
 }
