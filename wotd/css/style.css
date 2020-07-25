@@ -576,19 +576,9 @@
 	color: #e6e6e6;
 }
 
-<!---
-
-.phb::after {
-	background-image: none;
-	border-bottom: 2px solid #000;
-	bottom: 28px;
-}
-
 .phb#p1::after {
 	background-image: none;
 }
-
--->
 
 .phb blockquote {
 	box-sizing: border-box;
@@ -732,16 +722,6 @@
 	bottom: 38px;
 	width:70px;
 }
-
-.phb .footnote {
-	color: #000;
-	bottom: 38px;
-}
-
-.phb:nth-child(even):after {
-	background-image: none;
-}
-
 
 .phb .descriptive {
 	color: #000000;
