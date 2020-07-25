@@ -896,12 +896,6 @@ a:-webkit-any-link {
 	background-position:center;
 }
 
-.phb::after {
-	background-image: none;
-	border-bottom: 2px solid #000;
-	bottom: 12px;
-}
-
 .phb#p1::after {
 	background-image: none;
 }
