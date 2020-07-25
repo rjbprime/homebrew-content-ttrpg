@@ -577,9 +577,13 @@
 }
 
 .phb::after {
-	background-image: none;
+	background-image: url(https://rjbprime.github.io/homebrew-content-ttrpg/wotd/imgs/ff_crystal_alt_2.png);
 	border-bottom: 2px solid #000;
 	bottom: 28px;
+	background-size: 25% 25%; 
+	background-repeat: no-repeat;   
+	background-position: 0px calc(100% - 0px);
+	height: 100px;
 }
 
 .phb#p1::after {
